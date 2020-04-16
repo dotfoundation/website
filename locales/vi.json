@@ -10,11 +10,6 @@
       "technology": "Các công nghệ then chốt của Vite: DAG, Snapshot Chain, Cấu trúc không đồng bộ, Hợp đồng phản ứng, Sản xuất quota, Tích hợp Loopring, Điều chỉnh thời gian, Cập nhật hợp đồng, Solidity++"
     }
   },
-  "exchange": {
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "upbit": "UPBIT"
-  },
   "media": {
     "medium": "Medium",
     "bitcointalk": "Bitcointalk",
@@ -23,167 +18,355 @@
   },
   "community": {
     "title": "Cộng đồng",
-    "star": "Cộng đồng tiêu biểu"
+    "star": "Community Stars"
   },
   "nav": {
-    "index": "TRANG CHỦ",
-    "production": "SẢN PHẨM",
-    "team": "ĐỘI NGŨ",
-    "partnership": "ĐỐI TÁC",
-    "community": "CỘNG ĐỒNG",
-    "exchange": "SÀN GIAO DỊCH",
-    "media": "TRUYỀN THÔNG",
-    "faq": "CÂU HỎI THƯỜNG GẶP",
-    "about": "VỀ VITE LABS",
-    "wiki": "WIKI",
+    "index": "Home",
+    "production": "Products",
+    "platform": "Platform",
+    "wallet": "Wallet",
+    "exchange": "Exchange",
+    "pay": "Payment",
+    "person": "People",
+    "team": "Team",
+    "counselor": "Advisors",
+    "global": "Community Managers",
+    "investor": "Investors",
+    "community": "Community",
     "superNodes": "Hướng dẫn cho SBP (Snapshot Block Producer)",
     "nodeList": "Ứng cử viên SBP",
     "notice": {
-      "name": "SUPER-NODE",
+      "name": "SuperNodes",
       "specific": "Hướng dẫn cho SBP (Snapshot Block Producer)",
       "apply": "Đăng ký làm SBP (Snapshot Block Producer) "
-    }
-  },
-  "about": {
-    "whitepaper": "White-paper",
-    "blog": "Blog"
+    },
+    "medium": "Media & News",
+    "video": "Videos",
+    "blogs": "Blog",
+    "news": "Latest Press",
+    "tokenTransaction": "Trade",
+    "vitex": "ViteX",
+    "binance": "BINANCE",
+    "binance_url": "https://www.binance.com/en/trade/VITE_BTC",
+    "okex": "OKEX.COM",
+    "bittrex": "BITTREX",
+    "upbit": "UPBIT",
+    "guide": "Guide",
+    "tutorial": "Tutorial",
+    "faq": "CÂU HỎI THƯỜNG GẶP",
+    "airdrop": "Airdrop",
+    "about": "About",
+    "whitepaper": "White Paper",
+    "wiki": "WIKI",
+    "blog": "Tech Blog",
+    "more": "More",
+    "explorer": "Block Explorer",
+    "viteExplorer": "Vite Block Explorer",
+    "viteScan": "ViteScan",
+    "store": "Vite Store"
   },
   "home": {
+    "gotoVitex": "Trade on ViteX Now!",
+    "activity1": "Campaigns",
+    "activity2": "News",
     "explorer": "Trình duyệt",
     "webWallet": "Ví web",
     "wallet": {
-      "name": "Ứng dụng ví",
+      "name": "Vite Wallet",
       "en": "Ngoài Trung Quốc",
       "zh": "Trung Quốc"
     },
     "header": "Vite",
     "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
     "whitePaper": "White-paper",
+    "whitePaperSyra": "Vite Selected to Tokenize American City!",
     "testnet": "TestNet",
     "acttext": "Get VITE Token miễn phí",
     "actwait": "Hãy theo dõi!",
-    "news": "Tin tức mới nhất",
+    "news": "News",
     "starttoUse": "Bắt đầu cùng Vite"
+  },
+  "product": {
+    "title": "Products",
+    "platform": {
+      "title": "High-Performance Decentralized Platform",
+      "subtitle": "Find out More at Vite Wiki",
+      "link": "Vite Wiki"
+    },
+    "wallet": {
+      "title": "Decentralized, Multi-Token Wallet",
+      "subtitle": "Use Vite Wallet to Manage Your Digital Assets",
+      "ios": "iOS",
+      "android": "Android",
+      "web": "Web",
+      "mac": "Mac",
+      "windows": "Windows"
+    },
+    "exchange": {
+      "title": "Decentralized Exchange for Trading Digital Assets",
+      "subtitle": "Trade on ViteX Now",
+      "link": "ViteX"
+    },
+    "pay": {
+      "title": "Secure, Convenient, Low-Cost",
+      "subtitle": "Try VitePay in Vite Store Now",
+      "link": "Vite Store"
+    }
+  },
+  "New": {
+    "activity": {
+      "title": "Campaigns",
+      "more": "View More"
+    },
+    "dynamic": {
+      "title": "News"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "platform": {
+      "title": "High-Performance Decentralized Platform",
+      "explorer": "Check Vite Public Chain on Block Explorer",
+      "supernode": {
+        "title": "SBP number reaches",
+        "title1": "",
+        "count": "SBP Number"
+      },
+      "fullnode": {
+        "title": "Vite full nodes reach",
+        "nodeName": "Node Name"
+      },
+      "textList": [
+        {
+          "name": "High Performance",
+          "description": "DAG Ledger and Asynchronous Architecture ensure fast and ultra-high throughput of Vite platform"
+        },
+        {
+          "name": "Security",
+          "description": "The Snapshot chain technology introduced by Vite is meant to address inherent secure deficiency of DAG structure"
+        },
+        {
+          "name": "Usability",
+          "description": "Vite Ecosystem provides services of Contract Scheduling and Upgrading, Naming Services, Solidity++, all of these features are tremendously improving the usability of this platform"
+        },
+        {
+          "name": "Economy",
+          "description": "Vite platform has no transaction fees. Trading only consume quotas which can be acquired by running PoW"
+        },
+        {
+          "name": "Scalability",
+          "description": "Introducing HDPoS consensus algorithm as well as supporting cross-chain gateway and smart contracts to achieve further scalability"
+        }
+      ]
+    },
+    "wallet": {
+      "title": "Multi-Token Wallet",
+      "textList": [
+        {
+          "name": "Zero Transaction Fees",
+          "description": "Transaction consumes quota which can be acquired by running PoW for free"
+        },
+        {
+          "name": "Ultra-Fast Trading",
+          "description": "Asynchronous Architecture, Smooth Trading"
+        },
+        {
+          "name": "HD Wallet Structure",
+          "description": "Support Multiple Tokens, Easy to Manage"
+        },
+        {
+          "name": "Acquire Rewards via Voting",
+          "description": "Voting for Supernodes, Collect VITE Rewards"
+        },
+        {
+          "name": "Earn VITE via Airdrop",
+          "description": "Achieve App daily check-in, Earn free VITE via Airdrop"
+        },
+        {
+          "name": "dApp Games",
+          "description": "Cracking the High Roller Game, Collect VITE during Entertainment"
+        }
+      ]
+    },
+    "exchange": {
+      "title": "Decentralized Digital Assets Trading Platform",
+      "textList": [
+        {
+          "name": "True Decentralization, Secure Asset Management",
+          "description": "Achieve transaction matching through smart contract driven dividend distribution. Complete on-chain order matching, order book storage. Private keys are stored locally, only yourself have access to the private key and your assets."
+        },
+        {
+          "name": "High-Performance Public Chain, Better Trading Experience",
+          "description": "High transaction throughput, confirmation within seconds, zero transaction fees. Trading experience rivaling that of centralized exchanges"
+        },
+        {
+          "name": "VX holder collects dividends",
+          "description": "Multiple ways to mine exchange coins VX, via trading, staking and listing"
+        },
+        {
+          "name": "Embrace the Community, Super Quick Token Issance",
+          "description": "Token forging, gateway creation, coin listing, and order book information are completely transparent"
+        }
+      ]
+    },
+    "pay": {
+      "title": "Secure, Convenient, Low-Cost Payment",
+      "textList": [
+        {
+          "name": "Instant Confirmation, Support Industrial-Strength Requests",
+          "description": "DAG chain and asynchronous architecture introduced by Vite public chain ensure that the confirmation can be done within seconds. This architecture is able to hold billions of transactions and high-performance concurrent requests."
+        },
+        {
+          "name": "On-Chain Order Information, Secure Payment",
+          "description": "Order books are stored on decentralized public chain, totally open, transparent, unforgeable. Users can enjoy excellent trading experience."
+        },
+        {
+          "name": "Zero Transaction Fees, Staking Accelerates Trading",
+          "description": "Transactions on the Vite chain do not consume gas like those on Ethereum, but another resource referred to as “quota.” Low-frequency traders can reach this quota by running a PoW on the local device. Meanwhile, to accommodate high-frequency usage, traders will need to stake VITE in order to obtain the required quota. "
+        }
+      ]
+    }
+  },
+  "medium": {
+    "title": "Media & News",
+    "youtube": {
+      "title": "Official YouTube Channel"
+    },
+    "blog": {
+      "title": "Official Blog",
+      "desc": "The latest announcements of Vite can be found at Medium."
+    },
+    "report": {
+      "title": "Latest Press"
+    }
   },
   "roadmap": {
     "title": "Lộ trình",
+    "inProgress": "Ongoing",
+    "completed": "Completed",
+    "nextStep": "Future",
+    "previous": "PREVIOUS",
+    "next": "NEXT",
     "timelines": [
       {
-        "time": "02/2018",
-        "description": "Khởi động dự án"
-      },
-      {
-        "time": "Tháng 4/ 2018",
+        "time": "2018 Q2",
         "description": [
           {
-            "text": "Hoàn thành Whitepaper",
+            "text": "Vite White Paper",
             "url": "https://www.vite.org/whitepaper/vite_en.pdf"
-          }
-        ]
-      },
-      {
-        "time": "Tháng 5/ 2018",
-        "description": [
-          "Kêu gọi vốn Private Sale",
-          "Trang chủ",
-          "Đội ngũ sáng lập"
-        ]
-      },
-      {
-        "time": "Tháng 6/ 2018",
-        "description": [
-          "Đội ngũ Nghiên cứu Phát triển",
-          "Đội ngũ Phát triển công nghệ"
-        ]
-      },
-      {
-        "time": "Tháng 8/ 2018",
-        "description": " go-vite 0.1"
-      },
-      {
-        "time": "Tháng 9/ 2018",
-        "description": [
-          {
-            "text": "Ví web",
-            "url": "https://wallet.vite.net/"
           },
-          "Ví iOS",
+          "Vite Official Website, Private Sale, Team Establishment"
+        ]
+      },
+      {
+        "time": "2018 Q3",
+        "description": [
+          "Vite Core 0.1 Golang Implementation",
           {
-            "text": "Trình duyệt Block",
+            "text": "Vite Web Wallet",
+            "url": "https://x.vite.net/"
+          },
+          "Vite iOS Wallet",
+          {
+            "text": "Vite Block Explorer",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "Tháng 10/ 2018",
+        "time": "2018 Q4",
         "description": [
           {
-            "text": "Chuyển đổi VITE ERC20 sang VITE (56% tổng cung)",
+            "text": "56% of ERC20 VITE Converted to Native",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
-          }
-        ]
-      },
-      {
-        "time": "Tháng 11/ 2018",
-        "description": [
-          "Vite TestNet 1.0.0",
+          },
+          "Vite TestNet 1.0 - Alpha Test",
           {
-            "text": "Chiến dịch Snapshot Block Producer (SBP)",
+            "text": "SBP (Snapshot Block Producer) Activated",
             "url": "https://explorer.vite.net/SBPList"
           },
-          "Khai thác"
+          "Vite TestNet 1.0 - Launch"
         ]
       },
       {
-        "time": "Tháng 12/ 2018",
+        "time": "2019 Q1",
         "description": [
-          "Hợp đồng thông minh/ Solidity++ Alpha Test",
-          "Cross-Chain Gateway Alpha Test",
-          "Thử nghiệm Ví đa token Alpha",
+          "Vite Pre-MainNet",
+          "ViteX (DEX) - Beta Test",
+          "Smart Contract/Solidity++ Compiler - Beta Test",
           {
-            "text": "Sàn giao dịch phi tập trung (DEX) Alpha Test | Tin tức từ Forbes",
-            "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
-          },
-          "Website 2.0",
-          {
-            "text": "Website Diễn đàn chính thức",
-            "url": "https://forum.vite.net/"
+            "text": "Vite Multi-Asset HD Wallet",
+            "url": "http://vite.org/products#wallet"
           }
         ]
       },
       {
-        "time": "Quý 1/ 2019",
+        "time": "2019 Q2",
         "description": [
-          "Ra mắt Pre-MainNet",
-          "Cross-Chain Gateway Alpha Test",
-          "DEX Open Beta Test",
-          "Hợp đồng thông minh/ Solidity++ Open Beta Test",
-          "Ra mắt Ví đa token",
-          "Hỗ trợ Đa máy ảo (Multi-VM) (EVM / WASM)"
+          "Pre-MainNet Optimization",
+          "Smart Contract Upgrades",
+          "DApp Games"
         ]
       },
       {
-        "time": "Quý 2/ 2019",
+        "time": "2019 Q3",
         "description": [
-          "Tối ưu hóa hiệu suất",
-          "Kích hoạt Hợp đồng thông minh điều chỉnh theo thời gian",
-          "Dịch vụ đặt tên cho địa chỉ",
-          "Nâng cấp hợp đồng thông minh"
+          "Vite MainNet - Launch",
+          "ViteX (DEX) - Launch",
+          "ViteX in Mobile"
         ]
       },
       {
-        "time": "Quý 3/ 2019",
+        "time": "2019 Q4",
         "description": [
-          "Ra mắt MainNet",
-          "dApps (được hỗ trợ bởi ứng dụng khách trên thiết bị di động)",
-          "Phát hành Stablecoin trên DEX",
-          "Hoàn thành thanh toán"
+          "Payment Fulfilment",
+          "Vite Android HD Wallet - GRIN Support",
+          "Java SDK Refactoring",
+          "First VX (ViteX Token) Mined",
+          "ViteX Dividend",
+          "Distribution Update - VX Staking",
+          "ViteX Referral Program II",
+          "Full Node Incentive Program II"
         ]
       },
       {
-        "time": "Quý 4/ 2019",
+        "time": "2020 Q1",
         "description": [
-          "Xây dựng hệ sinh thái dApp"
+          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
+          "Vite HD Wallet - New Cryptocurrencies",
+          "Payment - New Adoption",
+          "Vite Ecosystem - Builds, Incubation and Incentivisation"
+        ]
+      },
+      {
+        "time": "2020 Q2",
+        "description": [
+          "DeFi - Borrowing and Lending",
+          "Hardware Wallet - Ledger",
+          "ViteX in Mobile - Klines",
+          "One-step DEX Deployment",
+          "Vite HD Wallet - BTC Support",
+          "Vite Web Wallet Upgrade",
+          "Vite Desktop Wallet",
+          "Dex Open Api"
+        ]
+      },
+      {
+        "time": "2020 Q3",
+        "description": [
+          "DApp Development Tool Upgrades",
+          "Smart Contract - Scheduling Service",
+          "Vite Naming Service",
+          "Vite 2.0 White Paper",
+          "Stable Coins on Vite"
+        ]
+      },
+      {
+        "time": "2020 Q4",
+        "description": [
+          "Vite 2.0 - Alpha Test",
+          "ViteX on Vite 2.0 - Alpha Test",
+          "DeFi on Vite 2.0 - Alpha Test"
         ]
       }
     ]
@@ -232,9 +415,7 @@
         "location": [
           "Hàng Châu & Trung Quốc"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "medium": [
           "1. Trước hết, chúng tôi đang cố gắng tăng tỉ lệ hiển thị của Vite trong nhiều phương tiện truyền thông blockchain bao gồm 8btc, Jinse Finance, Lian Dede, vv. Chúng tôi bỏ ngỏ khả năng áp dụng hình thức thiết lập node theo cột.",
           "2. Điều hành tài khoản node trong phương tiện truyền thông như tài khoản chính thức WeChat, Weibo, Twitter, Reddit, Facebook, vv, tài khoản này sẽ được phụ trách bởi một người chuyên nghiệp để tăng cường sự tương tác với người theo dõi.",
@@ -257,9 +438,7 @@
         "config": [
           "32 GB, 8 CPU, 640 GB SSD, hơn 100Mbps"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "medium": [
           "Chúng tôi hoạt động tích cực cùng cộng đồng trên Twitter, Medium và Telegram.",
           "Đội ngũ của chúng tôi và các đối tác thân thiết có các cộng đồng 600.000 người tại EU và Nga."
@@ -286,9 +465,7 @@
         "location": [
           "Melbourne, Úc"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "medium": [
           "Tôi tạo một tài khoản Twitter để cập nhật trạng thái node, đọc các bản cập nhật trên hệ sinh thái Vite và tìm hiểu về các sự kiện quan trọng. Tôi cũng đã tạo một trang web nơi người dùng có thể truy cập và xem trạng thái node/ mạng, sử dụng máy tính bỏ phiếu để xem tiềm năng kiếm tiền của Vite, đọc hướng dẫn và tham gia các cuộc thi. Phần thưởng nhận được, tôi cũng sẽ sử dụng trong việc đăng tải các phương tiện truyền thông, quảng cáo trên Twitter và Reddit và về cơ bản là bất cứ điều gì giúp thúc đẩy sự phát triển của Vite. Tôi chào đón tất cả các ý tưởng. "
         ],
@@ -310,9 +487,7 @@
         "location": [
           "Ukraine, thành phố Nikolaev"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "medium": [
           "đang tiến hành.."
         ],
@@ -333,9 +508,7 @@
         "location": [
           "Thượng Hải"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "medium": [
           "Chúng tôi có tất cả các phương tiện truyền thông xã hội và KOL đã sẵn sàng cho chiến dịch này."
         ],
@@ -356,9 +529,7 @@
         "location": [
           "Silicon Valley, Mỹ"
         ],
-        "photo": [
-
-        ],
+        "photo": [],
         "plan": [
           "1. Vườn ươm dự án Vite: Quỹ Zhizi là một quỹ BVI tập trung vào công nghệ blockchain và đầu tư tiền mã hóa. Là một tổ chức đầu tư sớm của Vite, chúng tôi cũng sẽ tích cực tham gia vào việc ươm tạo các dự án ban đầu của Vite và hỗ trợ đầy đủ cho đầu tư, vận hành và công nghệ cho các đối tác dự án sinh thái trong Vite.",
           "2. Nhiều đối tác của Quỹ Zhizi: kể từ khi thành lập, Quỹ Zhizi đã thiết lập quan hệ hợp tác tốt với nhiều dự án nổi tiếng trong và ngoài nước. Chúng tôi sẽ cung cấp cho Vite tài nguyên hợp tác và tích hợp tài nguyên để thúc đẩy sự phát triển của Vite.",
@@ -497,6 +668,26 @@
         "name": "ZL node",
         "description": "Làm việc cho một Vite tốt hơn"
       },
+      "n4q": {
+        "info": [
+          "Dong, Yan ; A developer who has worked in the Internet industry for many years ; Hangzhou, China"
+        ],
+        "config": [
+          "4CPU, 16GB RAM and 100 Mbps bandwidth"
+        ],
+        "location": [
+          "Singapore"
+        ],
+        "plan": [
+          "1. Create a node official website, gradually develop VITE related utilities and try to develop Dapp based on VITE.",
+          "2. To help new users quickly understand VITE, write VITE-related technical documents and articles about VITE from different angles."
+        ],
+        "medium": [
+          "Establish promotion accounts on major media platforms, including but not limited to: Weibo, Wechat, facebook, Twitter, Telegram Group, etc."
+        ],
+        "name": "N4Q.org",
+        "description": "Promoting VITE ecosystem and promoting VITE development and value circulation"
+      },
       "loopnest": {
         "info": [
           "Terence Lam là người đồng sáng lập và Giám đốc điều hành của Loopnest Blockchain Accelerator tại Hong Kong Cyberport. Anh cũng là cố vấn cho một số dự án blockchain thành công. Anh là giảng viên phụ trợ nổi tiếng tại Đại học Kinh doanh Trung Quốc SPACE Trung Quốc và là một doanh nhân tập trung vào blockchain, internet di động và các sáng kiến Thành phố thông minh. Trước khi khởi nghiệp, Terence đã tích lũy hơn hai thập kỷ kinh nghiệm trong các công ty đa quốc gia và có nhiều kinh nghiệm thực tế từ các nhiệm vụ ở nước ngoài, Singapore, Trung Quốc đại lục và Hồng Kông. Terence tốt nghiệp chương trình điều hành cao cấp của Harvard, Tsinghua, CEIBS. Anh có bằng Thạc sĩ Nghệ thuật Quản lý Marketing tại Đại học Macquarie và bằng Cử nhân Kỹ thuật của Đại học Trung Quốc Hồng Kông."
@@ -539,11 +730,41 @@
         ],
         "name": "Tập đoàn đầu tư Belsona LP",
         "description": "Chúng tôi tin vào VITE"
+      },
+      "bi23": {
+        "info": [
+          "Bi23 team is an expericenced team in blockchain fields , focus on the Crypto-Assets, providing customers with Staking and DeFi services. Bi23 is not only the Third supernode of Vite, but also the operator of ViteX ,  through which we deeply participate in the construction of vite ecology and increasing consensus. Besides, Bi23 also are the active validators of  Cosmos、IRISnet、Tezos and Terra , which proves Bi23's strong technical background and rich experiences in the field of Crypto-Assets.",
+          "Andrew Shen——Senior practitioners in bolckchain fields, he has deep knowledge in and more than 8 years of trading experience at crypto exchanges"
+        ],
+        "config": [
+          "We have a primary validation node and a backup validation node located in two different data centers in Hong Kong and the United States.They all have reserve power and private networks.Our special program can monitor the status of these two validation nodes at any time, and inform us by email, SMS or telegram in case of failure, so as to ensure the safety and stability of the validation node online."
+        ],
+        "location": [
+          "Independent data centers in Toronto,Canada and Hong Kong, China."
+        ],
+        "plan": [
+          "Step 1：become a supernode, providing a safer staking service for our users through a stable block rate and 100% uptime.",
+          "Step 2: apply to become a VITEX operator , actively participate in the ecological construction.",
+          "Step 3: focus on the promotion of bi32 supernode and continue promoting the increase of vite consensus."
+        ],
+        "medium": [
+          "Wechat：bi23com",
+          "Twitter：@bi23com",
+          "Telegram：Liqianyi，andrew shen",
+          "Official website：https://bi23.com",
+          "Vite website：https://vite.bi23.com"
+        ],
+        "name": "vite.bi23",
+        "description": "Bi23 focuses on the Crypto-Assets, providing customers with Staking and DeFi services. "
       }
     }
   },
   "team": {
     "core": "Đội ngũ",
+    "manage": "Beijing Management Team",
+    "siliconValley": "Silicon Valley Team",
+    "tech": "Beijing Team",
+    "global": "Community Managers",
     "advisor": "Cố vấn",
     "join": "Tham gia cùng chúng tôi",
     "nameMap": {
@@ -609,7 +830,7 @@
       },
       "Chris Li": {
         "name": "Chris Li",
-        "job": "Giám đốc Phát triển Kinh doanh",
+        "job": "CSO",
         "position": "Silicon Valley",
         "description": "Chris là một thành viên dày dạn trong ngành công nghiệp blockchain. Anh có nhiều kinh nghiệm trong đầu tư, phát triển kinh doanh và hoạt động kinh doanh. Anh là cựu Giám đốc Điều hành Hoa Kỳ tại GBiB. Chris cũng đã làm việc cho ZGC Capital vị trí quản lý đầu tư. Trách nhiệm của anh tại Tập đoàn Phát triển Zhongguancun gắn liền với các hoạt động ươm tạo tại Silicon Valley. Ngoài ra, Chris đã làm việc cho một vườn ươm tại Phố Wall, đảm nhận vị trí với nhóm Đầu tư và Phát triển Kinh doanh. Chris có bằng Thạc sĩ Kỹ thuật của Đại học Lehigh, với chuyên ngành Kỹ thuật Công nghiệp."
       },
@@ -619,17 +840,29 @@
         "position": "Silicon Valley",
         "description": "Luke là một doanh nhân kỹ thuật số đến từ Seoul và Tokyo, hiện có sống tại California. Trước đây, anh là Giám đốc Phát triển Kinh doanh tại City Innovate Foundation và SuperPublic CoLab tại United Nations Plaza. Anh cũng giữ các vị trí là Trưởng phòng Quan hệ Hoa Kỳ tại Học viện Sáng tạo Châu Âu và Giám đốc Quan hệ Đối tác Chiến lược tại Gateway Accelerator và VC. Anh cũng là người đồng sáng lập Startup Grind Berkeley, 3 Day Startup Berkeley và Paladin Partners. Gần đây nhất, Luke đã làm việc với một quỹ tài sản tiền mã hóa và ICO cho một công ty quản lý tài sản Thụy Sĩ, đồng thời hướng những nỗ lực vào một công cụ tăng tốc công nghệ cho một công ty khởi nghiệp ở Hàn Quốc. Anh ta có bằng Cử nhân Nghệ thuật về Kinh tế chính trị Châu Âu tại Đại học California, Berkeley."
       },
+      "Juliet Su": {
+        "name": "Juliet Su",
+        "job": "Operations Manager",
+        "position": "Silicon Valley",
+        "description": "Juliet got her degree in chemistry from the California Institute of Technology, where she conducted research at the Frances Arnold Lab (winner of 2018 Nobel Prize) using directed evolution to engineer proteins. Post-graduating, she decided chemistry was not quite right for her, and went on to explore the business world instead. She brings operating experience from a BioTech startup and from building a photography business."
+      },
+      "Emmanuel Darko": {
+        "name": "Emmanuel Darko",
+        "job": "Business Development Manager, Africa",
+        "position": "Silicon Valley",
+        "description": "Co-founder and VP of Marketing at ICOWatchlist and ex-banker in commercial and investment banking. He has been in the blockchain space since 2016 and has worked with over 300 projects in the industry. He is deeply connected in the African ecosystem, both public and private sectors. He is also the founder of Toks.Tech."
+      },
+      "Francesco": {
+        "name": "Francesco Bisardi",
+        "job": "Marketing Manager",
+        "position": "Silicon Valley",
+        "description": "Francesco started coding at 9 YO. Former National Italian Powerlifting Champion 17 YO.  He is a seasoned professional with 7 years of experience inside Entrepreneurship & Marketing, and a certified program manager.He collected experience inside the University Technology Transfer Office (Unical- Italy), European Innovation Academy (215 universities, 85 countries),  StartupGrind (150 countries powered by Google for Startups). He has a Bachelor's degree in Business Administration and MIB(HULT +150 countries). He was a teaching faculty for Erasmus+ (EU) and he worked as an advisor for different companies, he is in blockchain since 2017."
+      },
       "Jeff Ng": {
         "name": "Jeff Ng",
         "job": "Quản lý dự án",
         "position": "Silicon Valley",
         "description": "Ngoài việc là một người đam mê blockchain, Jeff còn là một thành viên và quản lý giàu kinh nghiệm trong cộng đồng Vite. Tính linh hoạt của kinh nghiệm làm việc của anh ấy bao gồm làm việc trong lĩnh vực hậu cần, quản lý hàng tồn kho, sản xuất, viết blog và thu thập nghệ thuật. Jeff tốt nghiệp Kỹ sư cơ khí từ Cal Poly, San Luis Obispo."
-      },
-      "Agata Aks": {
-        "name": "Agata Aks",
-        "job": "Marketing sáng tạo / Hoạt động Kinh doanh Liên kết",
-        "position": "Silicon Valley",
-        "description": "Agata có kinh nghiệm làm việc liên quan trong tiếp thị truyền thông, viết nội dung, quan hệ công chúng, quản trị văn phòng và dịch vụ pháp lý. Cô tốt nghiệp Đại học California, Santa Barbara với bằng Cử nhân Khoa học Tâm lý, với sự tập trung chiến lược về Tâm lý học Viết và Tham gia Ứng dụng. Cô có thể sử dụng tiếng Anh, tiếng Nga và tiếng Pháp."
       },
       "Lola": {
         "name": "Lola Li",
@@ -721,12 +954,6 @@
         "position": "Bắc Kinh",
         "description": "Stone đã hơn 4 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT tại Trung Quốc."
       },
-      "Candy": {
-        "name": "Helen Han",
-        "job": "Vận hành sản phẩm",
-        "position": "Bắc Kinh",
-        "description": "Helen has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
-      },
       "Eric": {
         "name": "Eric Wang",
         "job": "Kiến trúc sư Hệ thống",
@@ -734,10 +961,10 @@
         "description": "Eric đã từng làm việc với các công ty CNTT hàng đầu ở Trung Quốc, bao gồm cả Baidu. Anh là chuyên gia trong phát triển hệ thống dữ liệu và dịch vụ back-end. Anh có kinh nghiệm với các hệ thống kiến trúc, thiết kế hệ thống có thể xử lý truy vấn hơn 20.000 mỗi giây. Eric trước kia cũng đã đứng đầu một đội ngũ kỹ thuật gồm hơn 15 thành viên do đó, anh cũng đã có kinh nghiệm quản lý."
       },
       "Asurily": {
-        "name": "Asurily He",
+        "name": "Otis He",
         "job": "Nhà phát triển Back-end",
         "position": "Bắc Kinh",
-        "description": "Asurily đã có 3 năm kinh nghiệm làm việc về các dự án blockchain. Anh có bằng Thạc sĩ từ trường Đại học Northwestern. Nghiên cứu học thuật của anh tập trung vào nghiên cứu công nghệ và lưu trữ dữ liệu blockchain."
+        "description": "Otis has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northeastern University. His academic research focused on blockchain technology and data storage studies."
       },
       "Cassie": {
         "name": "Cassie Liu",
@@ -761,7 +988,7 @@
         "name": "Tiantao Zhu",
         "job": "Nhà phát triển Back-end",
         "position": "Bắc Kinh",
-        "description": "Tiantao đã có 3 năm kinh nghiệm làm việc trong bảo mật mạng lưới, đặc biệt về thiết kế kiến trúc hệ thống client-side. Anh từng đóng vai trò quan trọng trong việc phát triển các thành phần cốt lõi cho dịch vụ mạng peer-to-peer, an ninh và xác minh các tính năng. "
+        "description": "Tiantao has over 4 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
       },
       "weichao": {
         "name": "Weichao Li",
@@ -770,16 +997,16 @@
         "description": "Weichao có hơn 7 năm kinh nghiệm trong thiết kế kiến trúc dịch vụ back-end. Anh đã thiết kế hệ thống có thể xử lý được hơn 20.000 truy vấn mỗi giây."
       },
       "Zack": {
-        "name": "Zack Hou",
+        "name": "Blackey Hou",
         "job": "Giám đốc sản phẩm",
         "position": "Bắc Kinh",
         "description": "Zack tốt nghiệp Thạc sỹ Học viện Bưu chính Viễn thông Bắc Kinh. Anh đã có hơn 4 năm kinh nghiệm làm việc với các sản phẩm công nghệ và đã làm việc cho các công ty có uy tín, trong đó có DiDi và Baidu. Anh đã từng phụ trách việc quản lý các ứng dụng với hàng triệu người dùng hoạt động mỗi ngày (DAU)."
       },
       "Tina": {
-        "name": "Tina Wang",
-        "job": "Nhà phát triển Front-end",
+        "name": "Tina",
+        "job": "Product Manager",
         "position": "Bắc Kinh",
-        "description": "Tina có 3 năm kinh nghiệm phát triển front-end. Cô tốt nghiệp Đại học Công nghệ Nanyang ở Singapore, với bằng Thạc sĩ Khoa học về Nghiên cứu Thông tin. Tina trước đây đã làm việc tại các công ty công nghệ ở cả Trung Quốc và Singapore."
+        "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
       },
       "Rod": {
         "name": "Rod Luo",
@@ -799,12 +1026,6 @@
         "position": "Bắc Kinh",
         "description": "Flanke có 3 năm kinh nghiệm nghiên cứu hoạt động thương hiệu và trước đây đã từng làm việc cho iHeima và Xiangshang Finance."
       },
-      "Erin": {
-        "name": "Erin Yu",
-        "job": "Điều hành dữ liệu",
-        "position": "Bắc Kinh",
-        "description": "3 năm kinh nghiệm trong Hoạt động và Quản lý rủi ro, trước đây đã làm việc cho công ty Tài chính Sina và Youfenqi với tư cách là chuyên gia dữ liệu."
-      },
       "Hannah": {
         "name": "Hannah Fong",
         "job": "Đảm bảo chất lượng",
@@ -816,6 +1037,51 @@
         "job": "UI Designer",
         "position": "Bắc Kinh",
         "description": "Miya có 3 năm kinh nghiệm làm việc về thiết kế Giao diện người dùng và đã tham gia vào một số dự án CNTT. Miya trước đây là Giám đốc thiết kế làm việc tại một doanh nghiệp nhà nước lớn."
+      },
+      "Oleg": {
+        "name": "Олег Игоревич (Oleg Igorevych)",
+        "position": "Ukraine",
+        "description": "Seasoned blockchain & crypto enthusiast, engaged in trading and investment. Experienced in community management, business development and marketing."
+      },
+      "Pankaj": {
+        "name": "पंकज कटारिया (Pankaj Kataria)",
+        "position": "India",
+        "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of blockchain and associated tech."
+      },
+      "Juan": {
+        "name": " جوان محمود Juan Mhmod ",
+        "position": "Germany",
+        "description": "Dr. Mhmod, Juan studied engineering science and Technology. Previously served as a project manager and assistant professor at a well-know German university. He holds a Ph.D and Postdoctoral degree from Jilin University in China. He graduated his Ph.D with honors in 2016."
+      },
+      "HaViet": {
+        "name": "Ha Viet Nguyen",
+        "position": "Vietnam",
+        "description": "Former CMO of a Blockchain & Crypto Marketing agency and BD of a Venture Capital in Vietnam. Previously joined as CM for several notable blockchain projects."
+      },
+      "Takeshi": {
+        "name": "Takeshi",
+        "position": "Japan",
+        "description": "Seasonal blockchain practitioner. Involved in the formation of crypto communities through a forex FX trader. Worked as a human resources manager of a well-know Japanese company."
+      },
+      "snaker": {
+        "name": "Snaker Zhang",
+        "position": "China",
+        "description": "He has worked as an executive producer for a TV media and has 15 years of experience in the media industry. He is a blockchain technology enthusiast and digital currency investor, currently served as a Vite community manager."
+      },
+      "liyang": {
+        "name": "Yang Li",
+        "position": "China",
+        "description": "He graduated from Beijing Institute of Technology and worked as a project manager in the R&D department of Beijing Guodian Technology Industry Group. With more than 7 years of development experience, he is a blockchain technology researcher and early participant in the Vite community. He has in-depth research on DAG-based infrastructure public chain technology."
+      },
+      "chenle": {
+        "name": "Le Chen",
+        "position": "China",
+        "description": "He graduated from Changchun University of Science and Technology. He worked in the China Banknote Blockchain Research Institute under the Central Bank, and later engaged in stock trading development. He has three years of experience in virtual currency investment and two years of community management experience. He is currently a vite community administrator."
+      },
+      "qingshui": {
+        "name": "Qing Shui",
+        "position": "China",
+        "description": "Early investors in the currency circle have rich investment experience and currency resources. Participated in the early investment of many excellent projects such as EOS, Bell, IDA, Lud, etc., and assisted in community construction and operation with rich experience. "
       }
     }
   },
@@ -925,117 +1191,208 @@
     ]
   },
   "faq": {
-    "title": "VITE Q&A",
-    "questions": [
-      {
-        "question": "Vite là gì?",
-        "answer": [
-          "Vite là một nền tảng đa năng cho các ứng dụng phi tập trung. Nó được thiết kế để hỗ trợ các ứng dụng cường độ công nghiệp bằng cách cung cấp thông lượng cao, độ trễ thấp và khả năng mở rộng và đảm bảo bảo mật.",
-          "Đội ngũ Vite tập trung giải quyết các vấn đề về hiệu suất và khả năng mở rộng hiện tại của các chuỗi cơ sở hạ tầng, do đó, các ứng dụng thực tế với yêu cầu dữ liệu tần số cao có thể được xây dựng trong khung blockchain."
-        ]
-      },
-      {
-        "question": "Vite sẽ được niêm yết trên các sàn giao dịch nào?",
-        "answer": [
-          "Hiện tại, VITE đang được niêm yết trên BITTREX và OKEX, chúng tôi cũng đang liên hệ với các sàn giao dịch khác. Theo dõi chúng tôi!"
-        ]
-      },
-      {
-        "question": "Tài khoản WeChat của Vite là gì?",
-        "answer": [
-          "Tài khoản Wechat chính thức của chúng tôi: vitelabs"
-        ],
-        "key": "Wechat"
-      },
-      {
-        "question": "Cải tiến lớn nhất của Vite so với các public chain khác là gì?",
-        "answer": [
-          "Cải tiến lớn nhất là thiết kế không đồng bộ, có thể được hiểu ở ba khía cạnh sau: ",
-          "Đầu tiên, chúng tôi đang giới thiệu khái niệm thiết kế không đồng bộ vào các hợp đồng thông minh. Dự án Nano (một trong public chain nổi tiếng sử dụng DAG) tách hành động chuyển tiền thành giao dịch gửi và nhận. Chúng tôi đang xây dựng theo cơ chế này, và sẽ phân tách cuộc gọi và phản hồi của hợp đồng thông minh, để chúng có thể diễn ra không đồng bộ.",
-          "Thứ hai, việc viết và xác minh giao dịch cũng xảy ra không đồng bộ trong Vite. Trong thiết lập blockchain truyền thống (ví dụ: Bitcoin), tốc độ ghi các giao dịch vào sổ cái bị giới hạn bởi tốc độ xử lí. Nhưng Vite cho phép viết nhiều giao dịch vào sổ cái trong các ràng buộc của TPS. Bởi vì thiết lập không đồng bộ cho phép các giao dịch diễn ra với tốc độ đồng đều, điều này làm giảm các đỉnh và đáy của tốc độ viết giao dịch, do đó tối ưu hóa việc sử dụng tài nguyên và tăng thông lượng hệ thống. Ngoài ra, các giao dịch của hai người dùng sẽ không còn bị chặn; nghĩa là, chúng ta sẽ không còn thấy một viễn cảnh khi một người dùng gửi  lượng lớn giao dịch sẽ ngăn cản xác nhận các giao dịch của người dùng khác.",
-          "Thứ ba, các cuộc gọi giữa các hợp đồng cũng sẽ diễn ra không đồng bộ trong Vite. Các cuộc gọi giữa các hợp đồng thông minh trong Ethereum được thực hiện thông qua tin nhắn (còn gọi là giao dịch nội bộ); và các cuộc gọi đều thành công hoặc tất cả đều thất bại, theo ngữ nghĩa ACID nguyên tử. Để giải quyết vấn đề tắc nghẽnhiệu suất này, chúng tôi lấy một trang từ các giải pháp được phát triển tốt trong các công nghệ Internet tập trung và sẽ sử dụng kiến trúc hướng thông điệp. Như vậy, hợp đồng không chia sẻ trạng thái và liên lạc qua tin nhắn."
-        ]
-      },
-      {
-        "question": "Vì các hợp đồng thông minh trong Vite  không hỗ trợ các cuộc gọi đồng bộ, làm thế nào các cuộc gọi như vậy trong Ethereum sẽ tương thích với Vite?",
-        "answer": "Thật không may, những cuộc gọi này không tương thích với Vite. Các cuộc gọi đồng bộ cần được thay đổi thành các cuộc gọi không đồng bộ để hoạt động trong Vite."
-      },
-      {
-        "question": "Sự khác biệt giữa Solidity ++ của Vite và  Solidity của Ethereum là gì?",
-        "answer": [
-          "Ở mức độ cao, sự khác biệt tương tự như của C và C ++. Trong cú pháp cơ bản, hai ngôn ngữ phần lớn tương thích. Sự khác biệt lớn nhất là các cuộc gọi đồng bộ (Ethereum) so với không đồng bộ (Vite) như đã đề cập trước đó.",
-          "Ngoài ra, một loạt các thư viện tiêu chuẩn, chẳng hạn như thao tác chuỗi, hoạt động điểm nổi, vận hành các phép toán cơ bản, container và sắp xếp sẽ được cung cấp trong Solidity ++."
-        ]
-      },
-      {
-        "question": "Kiến trúc dựa trên thông điệp có một lợi thế về thông lượng và khả năng mở rộng cao. Tuy nhiên, điều này khiến cho mô hình lập trình phức tạp hơn, có thể không đảm bảo tính nhất quán mạnh mẽ và có thể dẫn đến độ trễ cao hơn. Làm thế nào để Vite giảm cả sự phức tạp trong mô hình lập trình và độ trễ?",
-        "answer": [
-          "Vite sẽ cung cấp ngôn ngữ hợp đồng Solidity ++ và SDK hoàn chỉnh để giảm chi phí lập trình không đồng bộ.",
-          "Sau khi nghiên cứu nghiêm ngặt, chúng tôi thấy rằng trong các trường hợp sử dụng thực tế, ngữ nghĩa nhất quán mạnh mẽ có thể được thay thế bằng ngữ nghĩa BASE. Vì thuật toán đồng thuận HDPoS của Vite có thể đảm bảo xác nhận giao dịch trong vòng 1 giây, bất kỳ sự gia tăng độ trễ tiềm năng nào vẫn nằm trong tầm kiểm soát."
-        ]
-      },
-      {
-        "question": "Tầm quan trọng của Snapshot Chain là gì?",
-        "answer": [
-          "Vite sử dụng một cấu trúc sổ cái gọi là mạng tinh thể block-lattice. Mỗi tài khoản tương ứng với một blockchain và mỗi giao dịch đề cập đến hàm băm của giao dịch trước đó trong tài khoản. Giao dịch được chia thành hai loại: \"giao dịch yêu cầu\" và \"giao dịch phản hồi. Một giao dịch phản hồi cần trích dẫn hàm băm tương ứng của giao dịch yêu cầu.",
-          "Cấu trúc DAG có một sự thiếu hụt cố hữu trong bảo mật. Điều này là do các giao dịch được nhóm theo tài khoản và mỗi giao dịch chỉ được gắn vào chuỗi liên kết với tài khoản có liên quan. Giao dịch được tạo bởi các tài khoản khác không tự động trở thành các node tiếp theo của giao dịch trước đó. Do đó, đối với một số giao dịch, xác suất rollback sẽ không giảm theo thời gian. Công nghệ chuỗi Snapshot là để giải quyết vấn đề này."
-        ]
-      },
-      {
-        "question": "Giao thức liên chuỗi có phải chỉ hỗ trợ trao đổi tài sản?",
-        "answer": [
-          "Đúng vậy. Vite sẽ hỗ trợ chuyển giá trị giữa các chuỗi khác nhau nhưng không hỗ trợ các chức năng liên chuỗi khác như chuyển tin nhắn hoặc gọi hợp đồng thông minh giữa các chuỗi."
-        ]
-      },
-      {
-        "question": "Whitepaper đề cập rằng các công cụ phát triển Vite, tương tự và có các tính năng được mở rộng từ Ethereum. Có phải điều này chỉ ra rằng dApp cho Ethereum có thể được triển khai trên Vite với những thay đổi nhỏ?",
-        "answer": [
-          "Đúng vậy, một trong những mục tiêu của Vite, là giảm chi phí chuyển các ứng dụng từ Ethereum. Vite cố gắng tối đa hóa khả năng tương thích với EVM."
-        ]
-      },
-      {
-        "question": "Hợp đồng thông minh Vite có thể hỗ trợ chạy trên thiết bị di động không? Chúng có giống với Qtum và hỗ trợ các ngôn ngữ chính như C ++ và Java không?",
-        "answer": [
-          "Vite không hỗ trợ di động. Hiện tại chúng tôi không có kế hoạch hỗ trợ các ngôn ngữ lập trình khác. Trong tương lai, chúng tôi sẽ thành lập VM Lab để tiếp tục nghiên cứu về ngôn ngữ hợp đồng thông minh và máy ảo. Chúng tôi hoan nghênh sự tham gia của các chuyên gia trong các lĩnh vực này."
-        ]
-      },
-      {
-        "question": "Ngôn ngữ hợp đồng thông minh được sử dụng trên nền tảng của Ethereum là Solidity. Một lợi ích đáng chú ý của Solidity là bản chất thân thiện với người mới, tuy nhiên một nhược điểm quan trọng là tính dễ bị tấn công của hacker. Vite có giải pháp nào cho vấn đề này?",
-        "answer": [
-          "Vite đã tính đến các vấn đề của Solidity và đã áp dụng các biện pháp đối phó khi thiết kế hợp đồng thông minh. Những cải tiến hoạt động này được nhìn thấy trong ngôn ngữ Solidity ++ của chúng tôi. Một trong những cải tiến đó, ví dụ, sẽ là sự kết hợp của một loạt các thư viện tiêu chuẩn. Điều này phục vụ một mục đích kép là tăng bảo vệ an ninh trong khi đơn giản hóa sự phức tạp của lập trình. Do các cuộc gọi liên hợp đồng của Solidity ++ dựa trên kiến trúc không đồng bộ, nên các cuộc tấn công được hỗ trợ bởi các cuộc gọi đồng bộ theo hợp đồng vốn đã bị ngăn chặn. Ví dụ Ethereum classic với kịch bản \"tấn công reentrancy\" không được áp dụng trong trường hợp của Vite. Vite sẽ triển khai công nghệ xác minh chính thức theo hợp đồng để giải quyết phát triển hợp đồng thông minh và chúng tôi đang xem xét cung cấp giải pháp hợp đồng thông minh dựa trên WASM. Nói tóm lại, chúng tôi cung cấp cho người dùng nhiều tùy chọn dựa trên giải pháp. "
-        ]
-      },
-      {
-        "question": "Đội ngũ Vite nghĩ như thế nào về những cạnh tranh gần đây (và trong tương lai) của public chain?",
-        "answer": [
-          "Hiện nay, công nghệ public chain vẫn đang trong giai đoạn phát triển ban đầu. Vẫn còn một chặng đường dài phái trước để trở thành một ngành trưởng thành. Chúng tôi sẽ cởi mở khi hợp tác với các đội ngũ khác để thúc đẩy sự phát triển của công nghệ public chain. Trong tương lai, sự cạnh tranh trong phạm vi public chian sẽ phát triển thành sự phát triển hệ sinh thái. Vite sẽ phát triển bố cục hệ sinh thái, đóng góp cho các ứng dụng của công nghệ blockchain."
-        ]
-      },
-      {
-        "question": "Token lạm phát (từ việc khai thác phần thưởng) và tiêu thụ sẽ được tự động cân bằng theo tiền đề của tổng cung 1 tỷ token?",
-        "answer": [
-          "Số tiền token lưu thông ban đầu là một tỷ. Khai thác phần thưởng được tạo ra từ cấp token bổ sung là lạm phát. Khi hệ thống được sử dụng rộng rãi, token sẽ tiếp tục bị hủy. Chúng tôi hy vọng rằng việc lưu thông token sẽ đạt được sự cân bằng cần thiết."
-        ]
-      },
-      {
-        "question": "Trên mạng Vite, người dùng có thể phát hành tiền tệ riêng của họ. Có phải chức năng tương tự như ERC20 token trên Ethereum? Lợi thế của Vite khi có hệ thống đó là gì? Địa chỉ của token VITE ERC20 là gì?",
-        "answer": [
-          "Phát hành tài sản của Vite tương tự như ERC20, nhưng theo những cách khác thì khác. ERC20 là một đặc điểm kỹ thuật, nhưng không phải là một phần của giao thức Ethereum. Việc phát hành token mới với Ethereum yêu cầu người dùng phát triển và triển khai hợp đồng thông minh. Số dư token được duy trì bởi trạng thái của hợp đồng. Nếu phát triển hợp đồng là thiếu sót, thì bảo mật sẽ có rủi ro. Ví dụ: nếu người dùng quên tham khảo thư viện SaftMath, lỗi tràn bộ nhớ đệm sẽ xảy ra. Token Vite được tích hợp vào giao thức Vite. Số dư token được duy trì ở trạng thái tài khoản của người dùng. Token mới và token gốc Vite chia sẻ cùng một giao thức cơ bản, do đó mang lại cùng một biện pháp bảo mật cho token mới và token gốc. Khi người dùng quyết định phát hành toiken mới trong Vite, tất cả những gì họ cần làm là bắt đầu một giao dịch. Giao dịch sau đó đặt các tham số token mới trong dữ liệu giao dịch. Thực tế là mạng của chúng tôi không yêu cầu viết hợp đồng thông minh vốn đã để ngăn chặn được lỗi phát sinh."
-        ]
-      },
-      {
-        "question": "Địa chỉ của token VITE ERC20 là gì?",
-        "answer": [
-          "Hiện tại, địa chỉ token VITE ERC20 được lưu trữ trên nền tảng của Ethereum là https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, khi Vite MainNet ra mắt, tất cả VITE ERC20 sẽ được di chuyển lên Vite Mainnet với quy đổi 1:1."
-        ]
-      },
-      {
-        "question": "Chúng tôi có thể đào Vite token không?",
-        "answer": [
-          "Cơ chế đồng thuận của Vite tương tự như của EOS. Nó tạo ra 25 snapshot block producers thông qua các thuật toán DPoS. Các nhà sản xuất khối, lần lượt, nhận được phần thưởng đào."
-        ]
-      }
-    ]
+    "title": "Vite Q&A",
+    "common": "Common",
+    "technology": "Tech",
+    "questions": {
+      "common": [
+        {
+          "question": "What is Vite?",
+          "answer": [
+            "Vite is a general-purpose platform for decentralized applications. It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
+            "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
+          ]
+        },
+        {
+          "question": "Where is the Vite team? How many people are there?",
+          "answer": [
+            "The Vite team offices are Silicon Valley, US, and in Beijing China, with a total of over 40 full-time team members, of which over the half are developers.",
+            "The engineering team are from top-tier IT companies, such as Tencent, JD, Baidu, Didi, and Meituan."
+          ]
+        },
+        {
+          "question": "What cryptocurrencies did Vite release? What are the differences?",
+          "answer": [
+            "VITE - 1 billion",
+            "VITE is the native coin on Vite public chain. VITE ERC20 tokens were issued when Vite was first founded and can now be migrated VITE native tokens at a 1:1 ratio on the Vite wallet app. Both VITE native coins and Vite ERC20 tokens have investment value and can be traded on exchanges.",
+            "VX - 100 million",
+            "VX is the token related to ViteX. Users who hold VX enjoy payouts from a shared dividend pool comprised of transaction and listing fees. There will be no public nor private sale for VX. Users can only get VX through mining.",
+            "VCP - 10 billion",
+            "VCP stands for Vite Community Points. VCP can be earned from campaigns or activities. You can exchange VCP for physical or virtual goods in the Vite Store. Although VCP is stable in value, it has no investment value and will not be listed on exchanges."
+          ]
+        },
+        {
+          "question": "Which exchange(s) will VITE be listed on?",
+          "answer": [
+            "Currently VITE is listed on ViteX, Bittex, Okex, and Upbit. We are also in contact with other exchanges. Stay tuned!"
+          ]
+        },
+        {
+          "question": " What is the current development stage? Is there a Mainnet?",
+          "answer": [
+            "Vite Mainnet is launched officially on September 25, 2019. The launching of Mainnet marks a significant milestone in Vite’s development as it signifies that the Vite public chain will now formally support the functions and expansions of the ecosystem built upon it. We have so far deployed several use cases, such as our Syracuse GovCoin pilot project, a Decentralized Exchange (ViteX), and many DApp games. However, with the launch of our Mainnet, we will be actively engaging and involving more users to help us grow our community-driven decentralized ecosystem."
+          ]
+        },
+        {
+          "question": "What are the advantages of Vite compared to other public chains?",
+          "answer": [
+            "1. Vite is the first public chain to implement smart contracts within a DAG structure.",
+            "2. Vite introduces asynchronous sending/receiving of transactions, resulting in fast transaction speeds with transaction confirmation in seconds and low-cost smart contract creation. ",
+            "3. Vite has a fee-less transaction model.",
+            "4. Vite utilizes a unique snapshot chain model that greatly strengthens the transaction security by eliminating the inherent security flaws associated with DAG. ",
+            "5. Vite features a built-in decentralized exchange."
+          ]
+        },
+        {
+          "question": "What is Vite’s biggest innovation as compared to other public chains?",
+          "answer": [
+            "The biggest innovation lies in our asynchronous design, which is implemented in three distinct areas: ",
+            "1. Smart contracts.",
+            "The Nano project (one of three well-known chains that use DAG) separates a transfer action into send and receive components. We have built upon this mechanism by separating the call and response actions of a smart contract so they can take place asynchronously.",
+            "2. Writing and verifying transactions.",
+            "In a traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing. Vite allows the writing of many transactions into the ledger simultaneously. Due to the asynchronous setup, transactions happen at a relatively steady rate, thus reducing the peaks and troughs typically associated with traditional setups which are limited by the speed of packing. Additionally, with this setup there will no longer be situations in which a user sending large numbers of transactions twill prevent other users' transactions from going through. This setup optimizes usage of resources and increases overall system throughput.",
+            "3. Calls between contracts.",
+            "The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions). These calls either all succeed or all fail, per an atomic ACID semantic. To solve for this performance bottleneck, we took inspiration from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture. As such, contracts do not share states and communicate via messages."
+          ]
+        },
+        {
+          "question": "What products did Vite develop?",
+          "answer": [
+            "Multi-token wallet (iOS/Android app): currently supports VITE, ETH, ERC20 tokens and GRIN.",
+            "Block explorer",
+            "Vite merchandise store: a blockchain payment use case in which items can be purchased by VCP (Vite Community Points). ",
+            "Vite decentralized exchange (ViteX): secure asset management, seamless trading experience, and VX (ViteX native token) mining capabilities. The current trading markets are: VITE, BTC, ETH, and a stablecoin."
+          ]
+        },
+        {
+          "question": "How to download Vite wallet? Is there a reward for downloading the wallet？",
+          "answer": [
+            "You can find the Vite iOS wallet in the Apple Store and the Vite Android wallet in the Play Store. Once the wallet is downloaded, users can receive daily airdrop rewards of 10-1000 VITE everyday. "
+          ]
+        },
+        {
+          "question": "What should I do if my wallet transaction saying insufficient quota? What is the quota? How to get a quota?",
+          "answer": [
+            "Think of \"quota\" as the fuel that keeps the Vite public chain running. Every transaction that is sent requires a certain amount of quota. For users that have high transaction frequency, they will need to obtain quota by staking VITE. The minimum amount is 134 VITE with a minimum staking period of 3 days. However, users that do not send frequent transactions can choose to run a quick PoW on their respective device instead. "
+          ]
+        },
+        {
+          "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
+          "answer": "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
+        },
+        {
+          "question": "What is the address of the VITE ERC20 token?",
+          "answer": [
+            "Currently, the VITE ERC20 token address hosted on Ethereum's platform is <a href='https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016' target='_blank'>https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016</a>, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
+          ]
+        },
+        {
+          "question": "Can we mine Vite tokens?",
+          "answer": "Vite's consensus mechanism is similar to that of EOS. The DPoS algorithm selects 25 snapshot block producers who, in turn, receive mining rewards."
+        },
+        {
+          "question": "How to run a Vite supernode, what is the benefit?",
+          "answer": [
+            "To register a supernode, you need to submit the application information. You will also need to take 500,000 VITE. The staking period is 90 days. After the registration is completed, you can invite community to vote for your SBP. The top 25 SBP get more rewards.",
+            "You can find the SuperNode Registration Guide here: <a href='https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab' target='_blank'>https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab</a>",
+            "The total amount of SBP rewards within the Testnet environment is 30 million VITE/year, which is 3% of the total VITE in circulation. Of this 30 million VITE, 50% goes to the block producers and 50% to be distributed as voting rewards."
+          ]
+        },
+        {
+          "question": "What is the daily reward of voting?",
+          "answer": [
+            "The current annual return is expected to be 18%, but the total amount of distributed reward is fixed. Thus, as more and more users participate in voting, the amount of VITE received per person will be reduced. "
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "question": "Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?",
+          "answer": "Unfortunately, these calls are not compatible with Vite. Synchronous calls need to be changed to asynchronous calls to work in Vite."
+        },
+        {
+          "question": "What is the difference between Vite's Solidity++ and Ethereum’s Solidity?",
+          "answer": [
+            "At a high level, the differences can be compared to those between C and C++. In basic syntax, the two languages are largely compatible. The largest difference lies in the synchronous (Ethereum) and asynchronous (Vite) calls as mentioned earlier.",
+            "In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++."
+          ]
+        },
+        {
+          "question": "The message-based architecture has an advantage of high throughput and scalability. However, this comes at a cost of more complex programming model, which may not guarantee strong consistency, and may lead to even higher latencies. How does Vite reduce both the complexity in programming model and latencies?",
+          "answer": [
+            "Vite will provide Solidity++ contract language and a complete SDK to reduce the cost of asynchronous programming.",
+            "After rigorous research, we find that in practical use cases, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee transaction confirmation within 1 second, any potential latency increase is still under control."
+          ]
+        },
+        {
+          "question": "What is the significance of Snapshot Chain?",
+          "answer": [
+            "Vite employs a ledger structure called block-lattice. Each account corresponds to a blockchain and each transaction refers to the hash of the previous transaction in the account. Transactions are divided into two types: 'request transactions' and 'response transactions.' A response transaction needs to quote the corresponding hash of the request transaction.",
+            "The DAG structure has an inherent deficiency in security. This is because transactions are grouped by accounts, and each transaction is only attached to the chain associated with the relevant account. Transactions generated by other accounts do not automatically become the subsequent nodes of the previous transaction. Therefore, for some transactions, the rollback probability will not drop over time. The Snapshot chain technology is meant to address this issue."
+          ]
+        },
+        {
+          "question": "Does the inter-chain protocol only support exchange of assets?",
+          "answer": "Yes. Vite will support value transfers between different chains but not other inter-chain functions such as message transfers or smart contract calls between chains."
+        },
+        {
+          "question": "The whitepaper mentions that Vite’s development tools are similar to, and have features extended from, those of Ethereum. Does this indicate that dApp’s for Ethereum can be deployed on Vite with minor changes?",
+          "answer": [
+            "Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum. Vite tries to maximize compatibility with EVM."
+          ]
+        },
+        {
+          "question": "Can Vite’s smart contracts support running on a mobile device? Will they be similar to Qtum and support mainstream languages like C++ and Java?",
+          "answer": [
+            "Vite smart contract will not have mobile support. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine. We welcome participation from experts in these areas.",
+            "Our hiring Email address is: hr@vite.org。"
+          ]
+        },
+        {
+          "question": "The smart contract language used on Ethereum's platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers' attacks. What solution does Vite have for this problem? ",
+          "answer": "Vite has taken Solidity's problems into account and has adopted countermeasures when designing smart contracts. These operational improvements are seen within our Solidity++ language. One of those improvements, for example, would be the incorporation of a series of standard libraries. This serves a dual purpose of increasing security protection while simplifying programming complexity. Because Solidity++ inter-contract calls rely on asynchronous architecture, the attacks facilitated by contract synchronous calls are inherently prevented. The classic Ethereum example of a 'reentrancy attack' scenario is not applicable in Vite's case. Vite will implement contractual formal verification technology to tackle smart contract development and we are considering offering a smart contract solution based on WASM. In short, we present users with a variety of solution-based options. "
+        },
+        {
+          "question": "On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?",
+          "answer": [
+            "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
+          ]
+        },
+        {
+          "question": "If the ERC20 VITE token on Ethereum has a bug, can you repair the loss with a hard fork?",
+          "answer": [
+            "We will open source the code for review and security audit. In the event of a major security problem, remediation of tokens and 1:1 mapping may be considered."
+          ]
+        },
+        {
+          "question": "What is the Github address of Vite?？",
+          "answer": [
+            "Github address: <a href='https://github.com/vitelabs' target='_blank'>https://github.com/vitelabs</a>"
+          ]
+        },
+        {
+          "question": "How to solve the problem of one success with one failure in the asynchronous processing? Is there a transaction processing rollback mechanism?",
+          "answer": [
+            "Vite is based on the block-lattice ledger structure. Under this setup, it is impossible to have one successful request with a failed response in a given transaction. Instead of a failed response, a successful request can be met with an unconfirmed response from the “recipient”. There will be no rollback.",
+            "Such a transaction will not be \"confirmed\" by the system until the recipient logs in to his or her account and signs off on the transaction. If the recipient does not confirm the transaction, it will remain in a \"pending\" state. "
+          ]
+        },
+        {
+          "question": "Hackers or malicious contract owners can change the internal structure of a smart contract, but users will think that everything is ok. How will this problem be solved?",
+          "answer": [
+            "We don't think that delegated nodes consensus is a good idea. Critical contracts should be defined as static. Non-static contracts are the role of the decentralized application (dApps) backend. The owner of the contract is responsible for the accuracy of the contract.",
+            "Like the Ethernet, contract update relies on a audit mechanism."
+          ]
+        },
+        {
+          "question": "Is the Name Service protected by a Homograph Attack? If it is protected, how will this be achieved?",
+          "answer": [
+            "We will limit the character set to ASCII and provide a library to hash the name into a prime image.",
+            "As shown below: <a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>. The text of the name may look similar, but the profile picture looks completely different."
+          ]
+        }
+      ]
+    }
   },
   "investor": {
     "title": "Các nhà đầu tư của chúng tôi"
@@ -1048,7 +1405,17 @@
       "vietnamese": "Tiếng Việt",
       "korean": "Tiếng Hàn",
       "russia": "Tiếng Nga",
-      "thailand": "Tiếng Thái"
+      "japan": "Japanese",
+      "french": "French",
+      "arabic": "Arabic",
+      "german": "German",
+      "thailand": "Tiếng Thái",
+      "turkish": "Turkish",
+      "indonesian": "Indonesian",
+      "spanish": "Spanish",
+      "malaysian": "Malaysian",
+      "filipino": "Filipino",
+      "bengali": "Bengali"
     },
     "whitePaper": "WHITEPAPER",
     "whitePaperList": {
@@ -1176,18 +1543,18 @@
     }
   },
   "airdrop": {
-    "title1": "Tải App Vite iOS và tham gia Airdrop",
+    "title1": "Download Vite Wallet and Participate in Airdrop",
     "text1": "Xin vui lòng tải về và cài đặt Vite Wallet trên App Store hoặc Google chơi.",
     "text2": "Hoàn thành các bước để tăng hạng V Power và tăng tốc nhận VITE, bạn có thể nhận V Power mỗi 4 tiếng",
     "title2": "Không chỉ là airdrop, VITE sẽ mang lại cho bạn tiềm năng tăng trưởng trong năm 2019",
     "step": "Hai bước nữa để trở thành Big Winner:",
-    "step1": "Tải ví Vite và nhận Vite Airdrop",
-    "step2": "Vote cho SBP bằng Vite Wallet",
+    "step1": "Download Vite Wallet and Receive Vite Airdrop",
+    "step2": "Vote for SBPs in Vite Wallet",
     "step3f": "Hoàn thành",
     "step3e": "Airdrop sẽ được phân bổ mỗi ngày",
     "annual": "Bình quân đạt được hàng năm",
-    "btnIos": "Tải Ví Vite iOS",
-    "btnAndroid": "Tải ví Vite Android ",
+    "btnIos": "iOS",
+    "btnAndroid": "Android",
     "btn2": "Kiểm tra Phần thưởng Vote"
   }
 }
